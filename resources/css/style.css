@@ -1,0 +1,143 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 3;
+  text-align: center;
+  }
+
+
+
+/* Header ---------------------- */
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  }
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  }
+
+nav span {
+  padding: 10px;
+  text-decoration:underline;
+  }
+
+  /* Body ----------------- */
+
+  /* Background */
+
+  .Background {
+    display: flex;
+    padding-top: 69px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Background .BigImage {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+  }
+
+  .Background .Headline {
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    width: 1200px;
+}
+
+.Background .Headline h2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Totm */
+
+.Totm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+}
+
+.Totm h4 {
+  font-size: 22px;
+}
+
+.Totm-Heading {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  width: 1000px;
+
+}
+
+ .TotmImages1 {
+   display: flex;
+   justify-content: space-between;
+   width: 1000px;
+   margin: 0px;
+   padding: 0px;
+ }
+
+ .TotmImages1Text {
+   display: flex;
+   justify-content: space-around;
+   width: 1000px;
+ }
+
+ .TotmImages2 {
+   display: flex;
+   justify-content: center;
+   width: 1000px;
+ }
+
+ .TotmImages2 img {
+   padding: 10px;
+ }
+
+ .TotmImages2Text {
+   display: flex;
+   justify-content: space-around;
+   width: 620px;
+ }
+
+ /* Locations */
+
+.Locations {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    background-image: url()
+}
+
+
+.Locations .LocationsHeadline {
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 1200px;
+  padding-top: 30px;
+  background-color: transparent;
+}

@@ -129,15 +129,36 @@ nav span {
     height: 500px;
     width: 100%;
     justify-content: center;
-    background-image: url()
+    align-items: center;
+    background: url("https://raw.githubusercontent.com/Prongs101/teacozy/master/resources/photos/img-locations-background.jpg") no-repeat center center fixed;
+    background-repeat:no-repeat;
 }
 
 
 .Locations .LocationsHeadline {
-  flex-direction: column;
+  align-self: flex-start;
   justify-content: center;
   position: absolute;
   width: 1200px;
   padding-top: 30px;
   background-color: transparent;
+}
+
+.Locations .LocationBoxes {
+  display: flex;
+  justify-content: center;
+  padding: 15px 40px;
+  position: absolute;
+  background-color: transparent;
+}
+
+.Locations .LocationBoxes div {
+  flex-direction: column;
+  align-self: center;
+  width: 300px;
+  background-color: black;
+}
+
+.Locations .LocationBoxes ul {
+    list-style-type: none;
 }

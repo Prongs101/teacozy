@@ -1,7 +1,6 @@
 * {
   font-family: Helvetica;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
   z-index: 3;
   text-align: center;
@@ -40,6 +39,10 @@ nav span {
 
   /* Body ----------------- */
 
+  body {
+    background-color: black;
+  }
+
   /* Background */
 
   .Background {
@@ -63,6 +66,7 @@ nav span {
     align-self: center;
     position: absolute;
     width: 1200px;
+    background-color: black;
 }
 
 .Background .Headline h2 {
@@ -146,19 +150,41 @@ nav span {
 
 .Locations .LocationBoxes {
   display: flex;
-  justify-content: center;
-  padding: 15px 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
   position: absolute;
   background-color: transparent;
 }
 
 .Locations .LocationBoxes div {
   flex-direction: column;
+  justify-content: space-around;
   align-self: center;
   width: 300px;
   background-color: black;
+  opacity: 1;
 }
 
 .Locations .LocationBoxes ul {
     list-style-type: none;
+}
+
+ /* Contact Section */
+.Contact div {
+  margin-top: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200px;
+}
+
+ /* Footer Section */
+footer {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: red;
 }
